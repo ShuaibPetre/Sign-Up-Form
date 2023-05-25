@@ -1,0 +1,126 @@
+body {
+    font-size: min(16px, 1.5vw);
+    background: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+ 
+}
+:root {
+    color: black;
+}
+.sidebar {
+    background-image: url("Images/nathan-dumlao-SlUoDl_SBMs-unsplash.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-basis: 40%
+}
+.mainside {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    flex-basis: 60%;    
+}
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+.logotxt {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(249, 250, 250, 0.45);
+  color: black;
+  font-size: 3em;
+}
+.credit {
+    position: absolute;
+    bottom: 0%;
+    font-size: 1em;
+}
+
+.forms {
+    flex-basis: 33.3333333%
+}
+.header, .footer {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 122, 27, 0.15);
+    padding: 20px;
+    flex: 1;
+}
+.header {
+    font-size: 80%;
+}
+
+.div1 {
+    display: flex; 
+    flex: 1;
+}
+label[for=newsletter] {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: min(12px, 1.3vw);
+    margin-bottom: 7px;
+}
+button,
+label,
+input,
+select,
+progress,
+meter,
+legend {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 5px;
+  height: 22px;
+  border: none;
+}
+
+input,
+select {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+  font-size: min(14px, 1.5vw);
+  background-color:rgba(17, 131, 151, 0.1);
+}
+label {
+    font-size: min(14px, 1.5vw);
+    padding-bottom: 20px;
+}
+fieldset {
+    border: none;
+}
+
+button {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  background-color:rgba(0, 122, 27, 0.8);
+  font-size: 120%;
+  margin: 0;
+}
+legend {
+    font-weight: 600;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+::placeholder {
+    color: grey;
+}
+textarea {
+    display: flex;
+    margin-top: 34px;
+    width: 15vw;
+    height: 20vh;
+}
